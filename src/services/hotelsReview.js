@@ -5,7 +5,7 @@ export async function hotelReview(city, country = 'any') {
   const data = {
     model: 'command-xlarge-nightly',
     prompt: `give me a review about 5 hotels in la plata Argentina
-The following is a list of five hotels in La Plata, Argentina:
+The following is a list of the top five hotels in La Plata, Argentina:
 1. The Grand Hotel La Plata
 2. The Hotel Plata Views
 3. The Obelisk Hotel
