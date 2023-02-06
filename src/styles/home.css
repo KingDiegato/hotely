@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+}
+
+.container h3,
+.container h1 {
+  margin: 0;
+}
+
+.started {
+  margin: 1rem;
+}
+
+@media (min-width: 868px) {
+  .started {
+    padding: 2rem 0 0 0;
+  }
+}
+
+.topper {
+  position: absolute;
+  top: 1rem;
+  left: 5rem;
+}
+
+/* globe area */
+
+.globe-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 5rem auto;
+  width: 30rem;
+  gap: 1rem;
+  max-width: 70rem;
+  padding: 1rem;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+
+@media (min-width: 868px) {
+  .globe-container {
+    width: 50rem;
+    gap: unset;
+  }
+}
+
+@media (min-width: 1280px) {
+  .globe-container {
+    width: 70rem;
+  }
+}
+
+/* #presentation */
+.presentation-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 6rem;
+}
+
+@media (min-width: 768px) {
+  .presentation-container {
+    margin: 0 10rem;
+  }
+}
+
+/* #endpresentation */
+
+/* HotelSample */
+
+.hotel-sample {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* article area */
+
+.media-card-article {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+@media (min-width: 700px) {
+  .media-card-article {
+    margin: 0 5rem
+  }
+}
+
+/* world map area */
+
+.world-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  max-width: '100vw'
+}

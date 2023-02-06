@@ -1,0 +1,45 @@
+:root {
+  --star-animation: show;
+  --duration: 0.4s;
+  --fill-mode: forwards;
+}
+
+[id^="star"] {
+  transform: scale(0);
+  transform-origin: right;
+
+  animation-name: var(--star-animation);
+  animation-duration: var(--duration);
+  animation-fill-mode: var(--fill-mode);
+}
+
+#star1 {
+  animation-delay: 0.4s;
+}
+
+#star2 {
+  animation-delay: 0.8s;
+}
+
+#star3 {
+  animation-delay: 1.2s;
+}
+
+#star4 {
+  animation-delay: 1.6s;
+}
+
+#star5 {
+  animation-delay: 2s;
+}
+
+@keyframes show {
+  100% {
+    transform: scale(1);
+  }
+}
+
+.country-map-svg-paths path:hover {
+  fill: tomato;
+  transition: fill 0.2s ease-out;
+}

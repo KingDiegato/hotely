@@ -1,0 +1,51 @@
+.ft-container {
+  left: 0;
+  height: 50rem;
+  background-color: #242321;
+  width: 100vw;
+}
+
+@media (min-width: 768px) {
+  .ft-container {
+    height: 48rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .ft-container {
+    height: 32rem;
+  }
+}
+
+
+.ft-container-text {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 3rem;
+  gap: 3rem;
+  justify-content: space-evenly;
+}
+
+.ft-container-text-bottom {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.ft-container-text h2 {
+  color: white;
+}
+
+.ft-container-text-bottom h5 {
+  color: rgb(255, 255, 255, 62%);
+}
+
+.ft-container-text-bottom h6 {
+  color: rgb(255, 255, 255, 62%);
+}
+
+.ft-container-text ul {
+  list-style: none;
+  line-height: 2;
+  padding: unset;
+}

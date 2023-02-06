@@ -1,0 +1,23 @@
+.tool-topper-container {
+  display: flex;
+  align-items: center;
+  margin: auto 5rem;
+}
+
+.tool-cards-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tool-cards-container-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.tool-slogan-box {
+  margin: 1rem 5rem;
+}

@@ -1,0 +1,13 @@
+.tools-navigation-panel {
+  align-items: baseline;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-right: 6rem;
+}
+
+@media (min-width: 768px) {
+  .tools-navigation-panel {
+    margin-right: 10rem;
+  }
+}

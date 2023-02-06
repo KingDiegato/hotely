@@ -1,0 +1,26 @@
+.hd-imgs {
+  display: flex;
+  margin: 0;
+  width: auto;
+  background-color: #121212;
+  margin-bottom: 5rem;
+
+}
+
+.hd-imgs img {
+  aspect-ratio: 12/9;
+  object-fit: cover;
+  width: 0;
+  opacity: .7;
+  flex-grow: 1;
+  height: calc(16rem + 8vw);
+
+  transition: 1s ease;
+}
+
+.hd-imgs img:hover {
+  opacity: 1;
+  width: 12rem;
+  filter: contrast(120%);
+  cursor: crosshair;
+}
