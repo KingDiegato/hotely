@@ -25,6 +25,7 @@ export default function CountrySelect({ id, CountryRef }) {
       )}
       renderInput={(params) => (
         <TextField
+          required
           {...params}
           ref={CountryRef}
           label='Choose a country'

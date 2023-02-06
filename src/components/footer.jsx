@@ -12,7 +12,7 @@ export default function Footer() {
         <div>
           <h2>About Us</h2>
           <ul>
-            <li><Link to='about'>Team</Link> </li>
+            <li><Link to='/about'>Team</Link> </li>
             <li><a href='https://cohere.ai' target='_blank' rel='noreferrer'>Co:here</a></li>
             <li><a href='https://github.com/midudev/midu-cohere-hackathon' target='_blank' rel='noreferrer'>Hackathon</a></li>
             <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel='noreferrer'>Secret</a></li>
