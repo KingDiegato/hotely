@@ -22,12 +22,12 @@ const Start = () => {
         <h2>Useful Tools:</h2>
         <section className='tool-cards-container-section'>
           <article>
-            <ToolCard btnLabel='Top 5 Hotels' toolParagraph='Get a rank o the top 5 hotels with ai and get the best choice for a confortable experience, make your trip unforgetable'>
+            <ToolCard link='/ranking' btnLabel='Top 5 Hotels' toolParagraph='Get a rank o the top 5 hotels with ai and get the best choice for a confortable experience, make your trip unforgetable'>
               <H />otel Ranking
             </ToolCard>
           </article>
           <article>
-            <ToolCard btnLabel='Hotel with Budget' toolParagraph='Keep your trip within your budget and worry only about enjoying the trip of your dreams'>
+            <ToolCard link='/budget' btnLabel='Hotel with Budget' toolParagraph='Keep your trip within your budget and worry only about enjoying the trip of your dreams'>
               <H />ealthy <B />udget
             </ToolCard>
           </article>

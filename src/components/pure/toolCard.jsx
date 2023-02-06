@@ -3,7 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FiveStars } from '../../assets/svg'
 
-export default function ToolCard({ children, toolParagraph, btnLabel }) {
+export default function ToolCard({ children, toolParagraph, btnLabel, link }) {
   const stylizedBtn = {
     margin: '1rem'
   }
@@ -25,7 +25,7 @@ export default function ToolCard({ children, toolParagraph, btnLabel }) {
           {toolParagraph}
         </Typography>
       </CardContent>
-      <Link to='/ranking'>
+      <Link to={link}>
         <Button sx={stylizedBtn} variant='contained' color='warning'>
           {btnLabel}
         </Button>
