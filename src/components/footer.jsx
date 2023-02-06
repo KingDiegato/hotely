@@ -14,7 +14,7 @@ export default function Footer() {
           <ul>
             <li><Link to='about'>Team</Link> </li>
             <li><a href='https://cohere.ai' target='_blank' rel='noreferrer'>Co:here</a></li>
-            <li><a href='https://cohere.ai' target='_blank' rel='noreferrer'>Hackathon</a></li>
+            <li><a href='https://github.com/midudev/midu-cohere-hackathon' target='_blank' rel='noreferrer'>Hackathon</a></li>
             <li><a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel='noreferrer'>Secret</a></li>
           </ul>
         </div>
@@ -22,15 +22,14 @@ export default function Footer() {
           <h2>Contact</h2>
           <ul>
             <li><a href='https://twitter.com/Diegato99' target='_blank' rel='noreferrer'>Twitter</a> </li>
-            <li><a href='https://twitter.com/Diegato99'>Discord</a> </li>
+            <li><a href='https://discord.gg/QMr56KHK9z'>Discord</a> </li>
             <li><a href='https://github.com/KingDiegato' target='_blank' rel='noreferrer'>GitHub</a> </li>
           </ul>
         </div>
         <div>
           <h2>More</h2>
           <ul>
-            <li><a href='https://twitter.com/Diegato99' target='_blank' rel='noreferrer'>Repository</a> </li>
-            <li><a href='https://twitter.com/Diegato99' target='_blank' rel='noreferrer'>Figma UI</a> </li>
+            <li><a href='https://github.com/KingDiegato/hotely' target='_blank' rel='noreferrer'>Repository</a> </li>
             <li><a href='https://docs.cohere.ai' target='_blank' rel='noreferrer'>CohereDocs</a> </li>
           </ul>
         </div>
