@@ -9,8 +9,6 @@ import Topper from '../components/topper'
 import '../styles/toolIndex.css'
 
 const Start = () => {
-  const letterH = H()
-  console.log(letterH.props)
   return (
     <>
       <Header />
