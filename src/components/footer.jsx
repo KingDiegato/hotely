@@ -31,6 +31,7 @@ export default function Footer() {
           <ul>
             <li><a href='https://github.com/KingDiegato/hotely' target='_blank' rel='noreferrer'>Repository</a> </li>
             <li><a href='https://docs.cohere.ai' target='_blank' rel='noreferrer'>CohereDocs</a> </li>
+            <Link to='/disclaimer'>Disclaimer</Link>
           </ul>
         </div>
         <div>

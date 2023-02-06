@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router'
 import About from './pages/about'
+import Disclaimer from './pages/disclaimer'
 import Home from './pages/home'
 import Privacity from './pages/privacity'
 import Start from './pages/start'
@@ -18,6 +19,7 @@ const App = () => {
       <Route path='/about' element={<About />} />
       <Route path='/terms' element={<Terms />} />
       <Route path='/privacity' element={<Privacity />} />
+      <Route path='/disclaimer' element={<Disclaimer />} />
       <Route path='*' element={<h1> error 404 </h1>} />
     </Routes>
   )
