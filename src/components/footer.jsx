@@ -39,8 +39,8 @@ export default function Footer() {
         </div>
       </section>
       <aside className='ft-container-text-bottom'>
-        <h5>Privacity Policy</h5>
-        <h5>Terms & Conditions</h5>
+        <Link to='/privacity'> <h5>Privacity Policy</h5> </Link>
+        <Link to='/terms'> <h5>Terms & Conditions</h5> </Link>
         <h5>@2023 Hotely</h5>
       </aside>
       <aside className='ft-container-text-bottom'>

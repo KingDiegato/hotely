@@ -4,7 +4,7 @@ import Topper from '../components/topper'
 
 import '../styles/infoPages.css'
 
-export default function About() {
+export default function Privacity() {
   const topperPosition = {
     position: 'absolute',
     top: '1rem',
@@ -15,7 +15,7 @@ export default function About() {
       <section style={topperPosition}>
         <Topper />
       </section>
-      <h2>About</h2>
+      <h2>Privacity</h2>
       <Footer />
     </>
   )
