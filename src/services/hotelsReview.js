@@ -27,10 +27,10 @@ can u give me a list of 5 hotels in barcelona?
 5. The Claris Hotel
 --
 now give me information about hotels in ${country}, ${city}
---
+
 `,
     max_tokens: 1000,
-    temperature: 2.2,
+    temperature: 2,
     k: 0,
     p: 0.75,
     frequency_penalty: 0,

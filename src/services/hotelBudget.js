@@ -3,7 +3,7 @@ const COHERE_API_GENERATE_URL = import.meta.env.VITE_URL_GEN
 
 export async function hotelBudget(country, city = 'any', budget) {
   const data = {
-    model: 'xlarge',
+    model: 'command-xlarge-nightly',
     prompt: `Question: 
     What is the best hotel in Buenos Aires with a budget of $1,500 in Buenos Aires city and why?
     --

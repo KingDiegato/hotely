@@ -30,7 +30,7 @@ export default function BudgetHotel() {
   let prom = null
   const handleBudget = async () => {
     setLoadBtn(true)
-    const text = budgetRef.current.children[1].children[0].value
+    const text = budCityRef.current.children[1].children[0].value
     const country = budCountryRef.current.children[1].children[0].value
     const budget = budgetRef.current.children[1].children[0].value
     prom = hotelBudget(country, text, budget)
