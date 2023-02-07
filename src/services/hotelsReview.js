@@ -48,9 +48,6 @@ now give me information about hotels in ${country}, ${city}
     },
     body: JSON.stringify(data)
   }).then(res => res.json())
-  console.log(response)
-  console.log(response.generations)
-  console.log(response.generations[0])
 
   const { text } = response.generations[0]
   return text
