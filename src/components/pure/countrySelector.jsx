@@ -30,8 +30,7 @@ export default function CountrySelect({ id, CountryRef }) {
           ref={CountryRef}
           label='Choose a country'
           inputProps={{
-            ...params.inputProps,
-            autoComplete: 'new-password' // disable autocomplete and autofill
+            ...params.inputProps
           }}
         />
       )}

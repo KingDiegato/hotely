@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/starting.css'
 
-export default function ReceiverInput({ id }) {
+export default function ReceiverInput({ id, refer }) {
   const textareaStyle = {
     resize: 'vertical',
     fontFamily: 'System ui',
@@ -17,7 +17,7 @@ export default function ReceiverInput({ id }) {
     <>
       <br />
       <div style={{ height: 'auto', padding: '1vw' }}>
-        <textarea className='use-font-family sizing-textarea' style={textareaStyle} id={id} disabled />
+        <textarea ref={refer} className='use-font-family sizing-textarea' style={textareaStyle} id={id} disabled />
       </div>
     </>
   )
